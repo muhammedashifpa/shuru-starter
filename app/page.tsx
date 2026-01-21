@@ -3,7 +3,6 @@ import { getUsersWithDelay } from "@/services/common.services";
 import { Suspense } from "react";
 
 export default async function Home() {
-  // const users = (await getDB()).data.users;
   const users = getUsersWithDelay();
 
   return (
