@@ -23,7 +23,6 @@ describe("<Users />", () => {
         </Suspense>,
       );
     });
-    console.log(screen);
     expect(screen.getByText("Ashif")).toBeInTheDocument();
     expect(screen.getByText("John")).toBeInTheDocument();
   });
